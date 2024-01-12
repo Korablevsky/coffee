@@ -29,7 +29,7 @@ export default async function ourCoffee() {
 				/>
 				<About dataAboutPage={dataAboutPage} className='max-w-[346px] ' />
 			</div>
-			<ProductSearchAndFilter data={data} type='filter' className='container flex flex-col items-center mt-[50px] max-[800px]:mt-[25px] ' />
+			<ProductSearchAndFilter data={data} type='filter' className='container flex flex-col items-center mt-[50px] max-[800px]:mt-[25px] pb-[30px]' />
 		</>
 	)
 }

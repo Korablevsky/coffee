@@ -34,7 +34,7 @@ export function ListProducts({
 						/>
 					</CardHeader>
 					<CardTitle>
-						<p className='min-[800px]:text-[14px] text-[12px] text-center'>{title}</p>
+						<p className='text-[14px] text-center'>{title}</p>
 					</CardTitle>
 					{type === 'country' && (
 						<CardContent className='pb-0'>

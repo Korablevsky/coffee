@@ -33,7 +33,7 @@ export default async function page() {
 			<ProductSearchAndFilter
 				data={data}
 				type='no filter'
-				className='container flex flex-col items-center mt-[50px]'
+				className='container flex flex-col items-center mt-[50px] pb-[30px]'
 			/>
 		</>
 	)

@@ -29,7 +29,7 @@ export function ProductSearchAndFilter({
 			)}
 
 				<ListProducts
-					className='max-w-[850px] pb-[15px]'
+					className='max-w-[850px] '
 					type='country'
 					data={filteredProducts.length === 0 ? data : filteredProducts}
 				/>

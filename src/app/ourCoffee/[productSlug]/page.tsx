@@ -31,7 +31,7 @@ export default async function Page({
 		< >
 			<HeadImageSection title='Our Coffee' className='bg-head-main' />
 
-			<div className='flex min-[700px]:gap-[40px]  pt-[70px] max-[800px]:pt-[35px] container max-w-[780px] items-center  max-[700px]:flex-col'>
+			<div className='flex min-[700px]:gap-[40px]  pt-[70px] max-[800px]:pt-[35px] container max-w-[780px] items-center  max-[700px]:flex-col pb-[30px]'>
 				<Image
 				className=''
 					src={`/${dataProduct.src}`}

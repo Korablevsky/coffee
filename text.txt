@@ -1,0 +1,35 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "onFocusChange",
+    "prettier.tabWidth": 4,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.enabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "tabnine.experimentalAutoImports": true,
+    "editor.language.colorizedBracketPairs": [],
+    "editor.lineHeight": 2,
+    "settingsSync.ignoredSettings": [],
+    "workbench.colorTheme": "Bearded Theme Vivid Purple",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "git.autofetch": true,
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "json.schemas": [
+        
+    ]
+}

@@ -1,0 +1,1 @@
+export {MainHead} from "./ui/MainHead"

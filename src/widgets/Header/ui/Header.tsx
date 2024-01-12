@@ -1,11 +1,10 @@
 'use client'
-import { MobileHeader } from '@/widgets/MobileHeader'
 import cn from 'classnames'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
-export function Header() {
+export function Header({ MobileHeader }: { MobileHeader: JSX.Element }) {
 	const pathname = usePathname()
 	return (
 		<>
@@ -25,24 +24,28 @@ export function Header() {
 					>
 						Coffee house
 					</Link>
-					<Link className={cn('', {
+					<Link
+						className={cn('', {
 							[' text-amber-400']: pathname === '/ourCoffee',
 						})}
-						 href='/ourCoffee'>
+						href='/ourCoffee'
+					>
 						Our coffee
 					</Link>
-					<Link className={cn('', {
+					<Link
+						className={cn('', {
 							[' text-amber-400']: pathname === '/forYourPleasure',
-						})} href='/forYourPleasure'>
+						})}
+						href='/forYourPleasure'
+					>
 						For your pleasure
 					</Link>
 				</nav>
 			</header>
-            
-            <div className='min-[800px]:hidden  fixed bg-black h-14 w-full z-10 text-right  pr-6 pt-3'>
-              <MobileHeader  className=''/>
-            </div>
-			
+
+			<div className='min-[800px]:hidden  fixed bg-black h-14 w-full z-10 text-right  pr-6 pt-3'>
+				{MobileHeader}
+			</div>
 		</>
 	)
 }

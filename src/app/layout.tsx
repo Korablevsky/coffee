@@ -3,6 +3,7 @@ import { Merienda } from "next/font/google";
 import "./globals.css";
 import { Footer } from '@/widgets/Footer'
 import { Header } from '@/widgets/Header'
+import { MobileHeader } from '@/widgets/MobileHeader'
 
 const inter = Merienda({ subsets: ["latin"] });
 
@@ -19,7 +20,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={inter.className}>
-                <Header /> 
+                <Header MobileHeader={<MobileHeader className=''/>} /> 
                 <main>{children}</main>
                 <Footer />
             </body>

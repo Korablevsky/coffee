@@ -1,0 +1,3 @@
+interface MobileHeaderProps {
+	className: string;
+  }
